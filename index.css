@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	/* border: 0; */
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+/* body {
+	background: white;
+	line-height: 1;
+	color: black;
+	} */
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    /* border: 1px solid red; */
+}
+
+/* General Styles */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+    transition: .7s;
+}
+
+h1:hover{
+    letter-spacing: .5rem;
+    font-size: 5.5rem;
+    color: #228B22;
+}
+
+section{
+    padding: 4% 0;
+}
+
+/* Header Section Styles */
+
+nav{
+    padding: 3% 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.orange{
+    background-color: #ff764e;
+    margin-left: 5%;
+}
+
+.orange:hover{
+    color: #ff764e;
+    border: .1rem solid #ff764e;
+    background-color: white;
+}
+
+.blue{
+    background-color: #5ed3eb;
+    margin: 0 25%;
+}
+
+.blue:hover{
+    color: #5ed3eb;
+    border: .1rem solid #5ed3eb;
+    background-color: white;
+}
+
+.yellow{
+    background-color: #FFCD69;
+    margin-right: 5%;
+}
+
+.yellow:hover{
+    color: #FFCD69;
+    border: .1rem solid #FFCD69;
+    background-color: white;
+}
+
+/* Top Section Styles */
+
+.top{
+    position: relative;
+}
+
+.left img{
+    border-radius: 50%;
+    width: 50%;
+    transition: .5s;
+}
+
+.left img:hover{
+    border-radius: 0%;
+    margin-left: 4%;
+    width: 70%;
+    height: auto;
+}
+
+.left, .right{
+    display: inline-block;
+    text-align: center;
+}
+
+.left{
+    width: 40%;
+    text-align: right;
+}
+
+.right{
+    width: 45%;
+    margin-left: 3%;
+    position: absolute;
+    top: 23%;
+}
+
+/* background section image */
+
+.hero-img{
+    height: 50vh;
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.right h1, h2, p{
+    padding: 2% 0;
+}
+
+.park-info{
+    background-color: #DDB9A3;
+    padding: 0 2%;
+    margin: 0 10%;
+    color: white;
+    transition: .5s;
+}
+
+.park-info:hover{
+    background-color: #8B4513;
+}
+
+.logos{
+    margin: 0 10%;
+    text-align: center;
+}
+
+.logo{
+    width: 15%;
+}
+
+.logo-caption{
+    width: 25%;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
