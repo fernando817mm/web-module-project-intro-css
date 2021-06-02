@@ -46,7 +46,7 @@ blockquote, q {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* General Styles */
@@ -74,8 +74,9 @@ section{
 /* Header Section Styles */
 
 nav{
-    padding: 2% 0;
-
+    padding: 3% 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 a{
@@ -114,7 +115,7 @@ nav a{
 
 .left img{
     border-radius: 50%;
-    width: 70%;
+    width: 50%;
 }
 
 .left, .right{
@@ -130,7 +131,7 @@ nav a{
     width: 45%;
     margin-left: 3%;
     position: absolute;
-    top: 40%;
+    top: 23%;
 }
 
 /* background section image */
@@ -141,4 +142,33 @@ nav a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+}
+
+.right h1, h2, p{
+    padding: 2% 0;
+}
+
+.park-info{
+    background-color: #DDB9A3;
+    padding: 0 2%;
+    margin: 0 10%;
+    color: white;
+}
+
+.logos{
+    margin: 0 10%;
+    text-align: center;
+}
+
+.logo{
+    width: 15%;
+}
+
+.logo-caption{
+    width: 25%;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #F9E7DC;
 }
