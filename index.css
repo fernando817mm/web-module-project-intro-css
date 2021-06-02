@@ -65,6 +65,13 @@ body{
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size: 5rem;
+    transition: .7s;
+}
+
+h1:hover{
+    letter-spacing: .5rem;
+    font-size: 5.5rem;
+    color: #228B22;
 }
 
 section{
@@ -97,14 +104,32 @@ nav a{
     margin-left: 5%;
 }
 
+.orange:hover{
+    color: #ff764e;
+    border: .1rem solid #ff764e;
+    background-color: white;
+}
+
 .blue{
     background-color: #5ed3eb;
     margin: 0 25%;
 }
 
+.blue:hover{
+    color: #5ed3eb;
+    border: .1rem solid #5ed3eb;
+    background-color: white;
+}
+
 .yellow{
     background-color: #FFCD69;
     margin-right: 5%;
+}
+
+.yellow:hover{
+    color: #FFCD69;
+    border: .1rem solid #FFCD69;
+    background-color: white;
 }
 
 /* Top Section Styles */
@@ -116,6 +141,14 @@ nav a{
 .left img{
     border-radius: 50%;
     width: 50%;
+    transition: .5s;
+}
+
+.left img:hover{
+    border-radius: 0%;
+    margin-left: 4%;
+    width: 70%;
+    height: auto;
 }
 
 .left, .right{
@@ -125,6 +158,7 @@ nav a{
 
 .left{
     width: 40%;
+    text-align: right;
 }
 
 .right{
@@ -153,6 +187,11 @@ nav a{
     padding: 0 2%;
     margin: 0 10%;
     color: white;
+    transition: .5s;
+}
+
+.park-info:hover{
+    background-color: #8B4513;
 }
 
 .logos{
